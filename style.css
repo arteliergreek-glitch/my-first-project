@@ -48,3 +48,36 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+/* Hero Section */
+.hero {
+  background-color: #f4f4f4; /* light gray background */
+  text-align: center;
+  padding: 100px 20px; /* space above and below */
+}
+
+.hero h1 {
+  font-size: 48px; /* big headline */
+  color: black;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.hero a {
+  background-color: red; /* button color */
+  color: white; /* button text */
+  padding: 15px 30px; /* button size */
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px; /* rounded corners */
+  transition: background 0.3s;
+}
+
+.hero a:hover {
+  background-color: darkred; /* hover effect */
+}
